@@ -14,6 +14,6 @@ print('Die 2:', dice2)
 print('Total value: ', dice1 + dice2)
 
 if dice1 + dice2 > 7:
-    print('You won!')
+    print('{} won!'.format(name))
 else:
-    print('You lost...')
+    print('{} lost...'.format(name))
